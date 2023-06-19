@@ -1,0 +1,113 @@
+@media (orientation: portrait) {
+    body {
+      display: none;
+    }
+  }
+
+body{
+    background-color: #fffae6;
+}
+
+#memorial{
+    color: #614e21;
+    font-weight: bold;
+    font-style: italic;
+}
+
+table{
+    font-family: "Josefin Slab", sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    background: white;
+    border: 1px solid #59553d;
+    padding: 8px;
+    border-radius: 15px;
+    width: 40vw;
+    margin-top: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#contact{
+    font-family: Josefin Slab, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    padding: 14px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius: 18px;
+    margin-left: 80%;
+    margin-top: 40px;
+
+}
+
+#ips1{
+    width: 370px;
+    top: 140px;
+    left: 110px;
+}
+
+#ips2{
+    width: 460px;
+    top: 160px;
+    left: 540px;
+    transform: rotate(-3deg);
+}
+
+#ips3{
+    width: 370px;
+    top: 150px;
+    left: 1070px;
+    transform: rotate(3deg);
+}
+
+#ips4{
+    width: 300px;
+    top: 470px;
+    left: 1150px;
+    transform: rotate(-1deg);
+}
+
+#ips5{
+    width: 370px;
+    top: 445px;
+    left: 50px;
+    transform: rotate(-1deg);
+}
+
+#ips6{
+    width: 300px;
+    top: 470px;
+    left: 470px;
+    transform: rotate(2deg);
+}
+
+.pics{
+    position: absolute;
+    width: 300px;
+    z-index: -1;
+}
+
+.text{
+    position: absolute;
+    font-family: "Libre Baskerville";
+    font-size: 70px;
+    color: #7a6557;
+    text-align: center;
+    transform: rotate(7deg);
+}
+
+#text1{
+    top: 450px;
+    left: 850px;
+}
+
+#text2{
+    top: 520px;
+    left: 820px;
+}
