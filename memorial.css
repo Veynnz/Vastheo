@@ -1,8 +1,6 @@
 @media (orientation: portrait) {
-    body {
-      display: none;
-    }
-  }
+    body {display: none;
+    }}
 
 body{
     background-color: #fffae6;
@@ -76,10 +74,6 @@ table{
     padding: 10px;
     padding-left: 3.5vw;
     padding-right: 3.5vw;
-    
-}
-
-.classes{
     
 }
 
